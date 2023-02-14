@@ -26,7 +26,7 @@ Plagiarism
 It is important to note that plagiarism will not be tolerated. All submitted solutions must be original and written by you, who applied for the vacancy and submitted the solution. Any evidence of plagiarism will be thoroughly investigated and may result in disqualification from the assessment process.
 
 # AUTHOR Contact
-* *Github** <[Getinet Amare](https://github.com/gama1221)>
+* **Github** <[Getinet Amare](https://github.com/gama1221)>
 * **Email** <[Getinet Amare](a href="mailto:getinetamare@gmail.com")>
 * **WhatsApp** <[Getinet Amare](https://wa.me/+251991732949)>
 * **LinkedIn** <[Getinet Amare](https://www.linkedin.com/in/getinet-mekonnen/)>
