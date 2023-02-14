@@ -2,9 +2,9 @@
 
 # Contents
 
-- [Given](https://github.com/gama1221/360Ground#Given)
-- [Solution](https://github.com/gama1221/360Ground#Solution)
-- [Author](https://github.com/gama1221/360Ground#Author)
+- [Given problem](https://github.com/gama1221/360Ground#Given)
+- [My Solution](https://github.com/gama1221/360Ground#Solution)
+- [Author (Made in...)](https://github.com/gama1221/360Ground#Author)
 
 <p align="center">
   <img width="460" height="300" src="images/360Logo.svg">
