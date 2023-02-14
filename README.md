@@ -25,13 +25,17 @@ The function should return a list of buildings representing the optimized delive
 
 <h3> Submission Instructions </h3>
 
-1. Code: you can write your solution in a preferred programming language and provide the full code.
-2. Comments: The code should be well-commented and should explain the thought process and logic behind the solution.
-2. * Test Cases: * provide test cases that demonstrate the correctness of their solution, including edge cases.
-Time & Space Complexity Analysis: provide an analysis of the time and space complexity of their solution.
-Document: Provide a document explaining the solution, how you approached the problem, and how you tested it.
-Submission: You can upload the code to a code hosting platform (e.g., GitHub, GitLab, Bitbucket) and share the link.
-Plagiarism
+1. <b>Code:</b> you can write your solution in a preferred programming language and provide the full code.
+2. <b>Comments:</b> The code should be well-commented and should explain the thought process and logic behind the solution.
+3. <b>Test Cases:</b> provide test cases that demonstrate the correctness of their solution, including edge cases.
+4. <b>Time & Space Complexity Analysis:</b> provide an analysis of the time and space complexity of their solution.
+5. <b>Document:</b> Provide a document explaining the solution, how you approached the problem, and how you tested it.
+6. <b>Submission:</b> You can upload the code to a code hosting platform (e.g., GitHub, GitLab, Bitbucket) and share the link.
+
+<h3>
+  Plagiarism
+</h3>
+
 It is important to note that plagiarism will not be tolerated. All submitted solutions must be original and written by you, who applied for the vacancy and submitted the solution. Any evidence of plagiarism will be thoroughly investigated and may result in disqualification from the assessment process.
 
 # Author Contacts
