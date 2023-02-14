@@ -25,7 +25,7 @@ Submission: You can upload the code to a code hosting platform (e.g., GitHub, Gi
 Plagiarism
 It is important to note that plagiarism will not be tolerated. All submitted solutions must be original and written by you, who applied for the vacancy and submitted the solution. Any evidence of plagiarism will be thoroughly investigated and may result in disqualification from the assessment process.
 
-# AUTHOR Contact
+# Author Contacts
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
 * **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
 * **WhatsApp** <[Getinet Amare](https://wa.me/+251991732949)>
