@@ -2,6 +2,7 @@
 
 [![Alt-Text](/images/360Logo.svg)]
 ## Code Challange
+<hr/>
 ### Implement a route planning algorithm for a delivery company.
 A delivery company has to deliver packages to several buildings in a city. Given the set of buildings and the distance between every pair of buildings, the problem is to find the shortest possible route that visits every building exactly once and returns to the starting building.
 
