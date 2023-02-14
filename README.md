@@ -30,3 +30,4 @@ It is important to note that plagiarism will not be tolerated. All submitted sol
 * **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
 * **WhatsApp** <[Getinet Amare](https://wa.me/+251991732949)>
 * **LinkedIn** <[Getinet Amare](https://www.linkedin.com/in/getinet-mekonnen/)>
+* **Telegram** <[Getinet Amare](https://t.me/gama2112)>
