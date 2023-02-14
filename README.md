@@ -1,6 +1,6 @@
 # 360Ground
 
-[![Alt-Text](/images/360Logo.svg)]
+![Alt-Text](/images/360Logo.svg)
 ## Code Challange
 
 ### Implement a route planning algorithm for a delivery company.
