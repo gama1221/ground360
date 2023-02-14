@@ -1,8 +1,13 @@
 <h1 align="center"> 360Ground </h1>
+# Contents
+- [Given](https://github.com/gama1221/360Ground#Given)
+- [Solution](https://github.com/gama1221/360Ground#Solution)
+- [Author](https://github.com/gama1221/360Ground#Author)
 <p align="center">
   <img width="460" height="300" src="images/360Logo.svg">
 </p>
 
+# Given
 <h2 align="center">
   Code Challange
 </h2>
@@ -45,7 +50,13 @@ The function should return a list of buildings representing the optimized delive
 </h3>
 
 It is important to note that plagiarism will not be tolerated. All submitted solutions must be original and written by you, who applied for the vacancy and submitted the solution. Any evidence of plagiarism will be thoroughly investigated and may result in disqualification from the assessment process.
-
+# Solution
+Breaking the problem into connected pieces as follows
+  1. Buildings class
+  2. Building class
+  3. Delivery Route Optimization class
+  4. Sample examples with sample inputs
+  5. Test classes
 # Author Contacts
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
 * **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
