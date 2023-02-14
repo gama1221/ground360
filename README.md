@@ -2,6 +2,11 @@
 <p align="center">
 [![Alt-Text](/images/360Logo.svg)](https://360ground.com/)
 </p>
+
+<p align="center">
+  <img width="460" height="300" src="images/360Logo.svg">
+</p>
+
 ## Code Challange
 
 ### Implement a route planning algorithm for a delivery company.
