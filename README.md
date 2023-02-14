@@ -15,9 +15,9 @@ Implement a function that takes a list of buildings and a starting building and 
 def delivery_route_optimization(buildings: List[Building], start: Building) -> List[Building]:
 ```
 
-<b>where:</b>
-<b>buildings</b> is a list of buildings with the name and distance attributes.
-<b>start</b> is the starting building.
+<b>where:</b> <br/>
+<b>buildings</b> is a list of buildings with the name and distance attributes.<br/>
+<b>start</b> is the starting building.<br/>
 
 The function should return a list of buildings representing the optimized delivery route, starting and ending with the start building.
 Note: Assume that the distance between any two buildings is given and it is symmetrical (i.e., if there is a path from building A to building B with a distance of d, then there is a path from building B to building A with a distance of d).
