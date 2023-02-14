@@ -1,4 +1,4 @@
-<h1 align="center" style="color:green"> 360Ground </h1>
+<h1 align="center"> 360Ground </h1>
 <p align="center">
   <img width="460" height="300" src="images/360Logo.svg">
 </p>
