@@ -60,7 +60,7 @@ Breaking the problem into connected pieces as follows
   3. Delivery Route Optimization class
   4. Sample examples with sample inputs
   5. Test classes
-# Author Contacts
+# Author
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
 * **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
 * **WhatsApp** <[Getinet Amare](https://wa.me/+251991732949)>
