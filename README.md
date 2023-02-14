@@ -27,6 +27,6 @@ It is important to note that plagiarism will not be tolerated. All submitted sol
 
 # AUTHOR Contact
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
-* **Email** <[Getinet Amare](a href="mailto:getinetamare@gmail.com")>
+* **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
 * **WhatsApp** <[Getinet Amare](https://wa.me/+251991732949)>
 * **LinkedIn** <[Getinet Amare](https://www.linkedin.com/in/getinet-mekonnen/)>
