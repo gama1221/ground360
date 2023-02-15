@@ -66,9 +66,11 @@ Breaking the problem into connected pieces as follows
   4. Sample examples with sample inputs
   5. Test classes
 # Diagram
+
 <p align="center">
   <img src="images/buildings.JPG" />
 </p>
+
 # Author
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
 * **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
