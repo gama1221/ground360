@@ -1,9 +1,7 @@
-package delivery_route_optimization;
+package com.shortestroute.ground360;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class DeliveryRouter {
     /**
@@ -13,7 +11,7 @@ public class DeliveryRouter {
      * @return - It returns all possible shortest routes to travel from source to all buildings
      */
     public static Buildings computesShortestPossibleRoutesToTravelFromSourceBuilding(Buildings buildings,
-                                                                            Building sourceBuilding){
+                                                                                     Building sourceBuilding){
         sourceBuilding.setDistance(0);
         Set<Building> shortestPossiblePathBuildings = new HashSet<>();
         Set<Building> allOtherBuildings = new HashSet<>();
@@ -67,5 +65,46 @@ public class DeliveryRouter {
             }
         }
         return shortestDistanceBuilding;
+    }
+    public static void deliveryRouteOptimizationDemo(){
+        Building block12 = new Building("Block12");
+        Building block2 = new Building("Block2");
+        Building block3 = new Building("Block3");
+        Building block6 = new Building("Block6");
+        Building block7 = new Building("Block7");
+        Building block9 = new Building("Block9");
+
+        block12.addDestination(block2, 10);
+        block12.addDestination(block3, 15);
+
+        block2.addDestination(block6, 12);
+        block2.addDestination(block9, 15);
+
+        block3.addDestination(block7, 10);
+
+        block6.addDestination(block7, 2);
+        block6.addDestination(block9, 1);
+
+        block9.addDestination(block7, 5);
+
+        Buildings graph = new Buildings();
+
+        graph.addBuilding(block12);
+        graph.addBuilding(block2);
+        graph.addBuilding(block3);
+        graph.addBuilding(block6);
+        graph.addBuilding(block7);
+        graph.addBuilding(block9);
+
+        DeliveryRouter.computesShortestPossibleRoutesToTravelFromSourceBuilding(graph, block12)
+                .getBuildingSet().forEach(building -> {
+                    String path = building.getShortestPath().stream()
+                            .map(Building::getName).map(Objects::toString)
+                            .collect(Collectors.joining(" => "));
+                    System.out.println((path.isBlank()
+                            ? "%s : %s".formatted(building.getName(), building.getDistance())
+                            : "%s => %s : %s".formatted(path, building.getName(), building.getDistance()))
+                    );
+                });
     }
 }
