@@ -9,6 +9,10 @@
   - [Buildings helper class](https://github.com/gama1221/ground360#Buildings)
   - [DeliveryRouter class](https://github.com/gama1221/ground360#DeliveryRouter)
   - [Ground360Application Main class](https://github.com/gama1221/ground360#Ground360Application)
+  - [Test classe using JUnit 5](https://github.com/gama1221/ground360#Test)
+    - [Test Building helper class using JUnit 5](https://github.com/gama1221/ground360#TestBuilding)
+    - [Test Buildings helper class using JUnit 5](https://github.com/gama1221/ground360#TestBuildings)
+    - [Test DeliveryRouter class using JUnit 5](https://github.com/gama1221/ground360#TestDeliveryRouter)
 - [Author (Made in...)](https://github.com/gama1221/ground360#Author)
 
 <p align="center">
@@ -287,6 +291,159 @@ public class Ground360Application {
     public static void main(String[] args) {
         SpringApplication.run(Ground360Application.class, args);
         DeliveryRouter.deliveryRouteOptimizationDemo();
+    }
+}
+```
+# Test
+Test the main method to solve the problem as well as the helper classes using JUnit 5 liberary
+## TestBuilding
+```java
+package com.shortestroute.ground360;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BuildingTest {
+    @Test
+    void contextLoads() {
+    }
+
+    /**
+     * Methods under test:
+     *
+     * <ul>
+     *   <li>{@link Building#Building(String)}
+     *   <li>{@link Building#setAdjacentBuilding(Map)}
+     *   <li>{@link Building#setDistance(Integer)}
+     *   <li>{@link Building#setName(String)}
+     *   <li>{@link Building#setShortestPath(LinkedList)}
+     *   <li>{@link Building#getAdjacentBuilding()}
+     *   <li>{@link Building#getDistance()}
+     *   <li>{@link Building#getName()}
+     *   <li>{@link Building#getShortestPath()}
+     * </ul>
+     */
+    @Test
+    void testConstructor() {
+        Building actualBuilding = new Building("Name");
+        HashMap<Building, Integer> buildingIntegerMap = new HashMap<>();
+        actualBuilding.setAdjacentBuilding(buildingIntegerMap);
+        actualBuilding.setDistance(1);
+        actualBuilding.setName("Name");
+        LinkedList<Building> buildingList = new LinkedList<>();
+        actualBuilding.setShortestPath(buildingList);
+        assertSame(buildingIntegerMap, actualBuilding.getAdjacentBuilding());
+        assertEquals(1, actualBuilding.getDistance().intValue());
+        assertEquals("Name", actualBuilding.getName());
+        assertSame(buildingList, actualBuilding.getShortestPath());
+    }
+
+    /**
+     * Method under test: {@link Building#addDestination(Building, int)}
+     */
+    @Test
+    void testAddDestination() {
+        Building building = new Building("Name");
+        building.addDestination(new Building("Name"), 2);
+        assertEquals(1, building.getAdjacentBuilding().size());
+    }
+}
+```
+## TestBuildings
+Test Buildings java classes as follows
+```java
+package com.shortestroute.ground360;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.junit.jupiter.api.Test;
+
+class BuildingsTest {
+    /**
+     * Method under test: {@link Buildings#addBuilding(Building)}
+     */
+    @Test
+    void testAddBuilding() {
+        Buildings buildings = new Buildings();
+        buildings.addBuilding(new Building("Name"));
+        assertEquals(1, buildings.getBuildingSet().size());
+    }
+
+    /**
+     * Methods under test:
+     *
+     * <ul>
+     *   <li>default or parameterless constructor of {@link Buildings}
+     *   <li>{@link Buildings#setBuildingSet(Set)}
+     *   <li>{@link Buildings#getBuildingSet()}
+     * </ul>
+     */
+    @Test
+    void testConstructor() {
+        Buildings actualBuildings = new Buildings();
+        HashSet<Building> buildingSet = new HashSet<>();
+        actualBuildings.setBuildingSet(buildingSet);
+        assertSame(buildingSet, actualBuildings.getBuildingSet());
+    }
+}
+```
+## TestDeliveryRouter
+Test the actual method which is the delivery router optimizer
+```java
+package com.shortestroute.ground360;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class DeliveryRouterTest {
+    /**
+     * Method under test: {@link DeliveryRouter#computesShortestPossibleRoutesToTravelFromSourceBuilding(Buildings, Building)}
+     */
+    @Test
+    void testComputesShortestPossibleRoutesToTravelFromSourceBuilding() {
+        Buildings buildings = new Buildings();
+        Building building = new Building("Name");
+        DeliveryRouter.computesShortestPossibleRoutesToTravelFromSourceBuilding(buildings, building);
+        assertEquals(0, building.getDistance().intValue());
+    }
+    /**
+     * Method under test: {@link DeliveryRouter#computesShortestPossibleRoutesToTravelFromSourceBuilding(Buildings, Building)}
+     */
+    @Test
+    void testComputesShortestPossibleRoutesToTravelFromSourceBuilding3() {
+        Buildings buildings = new Buildings();
+
+        Building building = new Building("Name");
+        building.addDestination(new Building("Name"), 2);
+        DeliveryRouter.computesShortestPossibleRoutesToTravelFromSourceBuilding(buildings, building);
+        assertEquals(0, building.getDistance().intValue());
+    }
+
+    /**
+     * Method under test: {@link DeliveryRouter#computesShortestPossibleRoutesToTravelFromSourceBuilding(Buildings, Building)}
+     */
+    @Test
+    void testComputesShortestPossibleRoutesToTravelFromSourceBuilding4() {
+        Buildings buildings = new Buildings();
+
+        Building building = new Building("Name");
+        building.addDestination(new Building("Name"), 2);
+        building.addDestination(new Building("Name"), 2);
+        DeliveryRouter.computesShortestPossibleRoutesToTravelFromSourceBuilding(buildings, building);
+        assertEquals(0, building.getDistance().intValue());
     }
 }
 ```
