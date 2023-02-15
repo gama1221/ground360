@@ -4,7 +4,7 @@
 
 - [Given problem](https://github.com/gama1221/360Ground#Given)
 - [My Solution](https://github.com/gama1221/360Ground#Solution)
-  - [Sample Buildings diagram to test the algorithm](https://github.com/gama1221/360Ground#Diagram)
+  - [Diagram](https://github.com/gama1221/360Ground#Diagram)
   - [Building helper class](https://github.com/gama1221/360Ground#Building)
   - [Buildings helper class](https://github.com/gama1221/360Ground#Buildings)
   - [DeliveryRouter class](https://github.com/gama1221/360Ground#DeliveryRouter)
