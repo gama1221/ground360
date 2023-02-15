@@ -70,7 +70,7 @@ Breaking the problem into connected pieces as follows
   <img src="images/buildings.JPG" />
 </p>
 
-#Building
+# Building
 ```java
 package com.shortestroute.ground360;
 
