@@ -4,6 +4,11 @@
 
 - [Given problem](https://github.com/gama1221/360Ground#Given)
 - [My Solution](https://github.com/gama1221/360Ground#Solution)
+  - [Sample Buildings diagram to test the algorithm](https://github.com/gama1221/360Ground#Diagram)
+  - [Building helper class](https://github.com/gama1221/360Ground#Building)
+  - [Buildings helper class](https://github.com/gama1221/360Ground#Buildings)
+  - [DeliveryRouter class](https://github.com/gama1221/360Ground#DeliveryRouter)
+  - [Ground360Application Main class](https://github.com/gama1221/360Ground#Ground360Application)
 - [Author (Made in...)](https://github.com/gama1221/360Ground#Author)
 
 <p align="center">
@@ -60,6 +65,10 @@ Breaking the problem into connected pieces as follows
   3. Delivery Route Optimization class
   4. Sample examples with sample inputs
   5. Test classes
+# Diagram
+<p align="center">
+  <img width="460" height="300" src="images/buildings.JPG">
+</p>
 # Author
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
 * **Email** <[Getinet Amare](mailto:getinetamare@gmail.com)>
