@@ -70,14 +70,17 @@ Breaking the problem into connected pieces as follows
   3. Delivery Route Optimization class
   4. Sample examples with sample inputs
   5. Test classes
+  
 # Diagram
 <p align="center">
   <img src="images/buildings.JPG" />
 </p>
 # Structure
+Here is the project structure using Intellij IDE
 <p align="center">
   <img src="images/projectstructure.JPG" />
 </p>
+
 # Building
 ```java
 package com.shortestroute.ground360;
