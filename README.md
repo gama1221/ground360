@@ -9,7 +9,7 @@
   - [Buildings helper class](https://github.com/gama1221/ground360#Buildings)
   - [DeliveryRouter class](https://github.com/gama1221/ground360#DeliveryRouter)
   - [Ground360Application Main class](https://github.com/gama1221/ground360#Ground360Application)
-  - [Test classe using JUnit 5](https://github.com/gama1221/ground360#Test)
+  - [Test classes using JUnit 5](https://github.com/gama1221/ground360#Test)
     - [Test Building helper class using JUnit 5](https://github.com/gama1221/ground360#TestBuilding)
     - [Test Buildings helper class using JUnit 5](https://github.com/gama1221/ground360#TestBuildings)
     - [Test DeliveryRouter class using JUnit 5](https://github.com/gama1221/ground360#TestDeliveryRouter)
