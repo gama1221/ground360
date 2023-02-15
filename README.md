@@ -5,6 +5,7 @@
 - [Given problem](https://github.com/gama1221/ground360#Given)
 - [My Solution](https://github.com/gama1221/ground360#Solution)
   - [Diagram](https://github.com/gama1221/ground360#Diagram)
+  - [Project Structure](https://github.com/gama1221/ground360#Structure)
   - [Building helper class](https://github.com/gama1221/ground360#Building)
   - [Buildings helper class](https://github.com/gama1221/ground360#Buildings)
   - [DeliveryRouter class](https://github.com/gama1221/ground360#DeliveryRouter)
@@ -73,7 +74,10 @@ Breaking the problem into connected pieces as follows
 <p align="center">
   <img src="images/buildings.JPG" />
 </p>
-
+# Structure
+<p align="center">
+  <img src="images/projectstructure.JPG" />
+</p>
 # Building
 ```java
 package com.shortestroute.ground360;
