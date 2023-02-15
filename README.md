@@ -67,7 +67,7 @@ Breaking the problem into connected pieces as follows
   5. Test classes
 # Diagram
 <p align="center">
-  <img src="images/buildings.JPG">
+  <img src="images/buildings.JPG" />
 </p>
 # Author
 * **Github** <[Getinet Amare](https://github.com/gama1221)>
