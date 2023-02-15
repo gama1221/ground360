@@ -2,14 +2,14 @@
 
 # Contents
 
-- [Given problem](https://github.com/gama1221/360Ground#Given)
-- [My Solution](https://github.com/gama1221/360Ground#Solution)
+- [Given problem](https://github.com/gama1221/ground360#Given)
+- [My Solution](https://github.com/gama1221/ground360#Solution)
   - [Diagram](https://github.com/gama1221/ground360#Diagram)
-  - [Building helper class](https://github.com/gama1221/360Ground#Building)
-  - [Buildings helper class](https://github.com/gama1221/360Ground#Buildings)
-  - [DeliveryRouter class](https://github.com/gama1221/360Ground#DeliveryRouter)
-  - [Ground360Application Main class](https://github.com/gama1221/360Ground#Ground360Application)
-- [Author (Made in...)](https://github.com/gama1221/360Ground#Author)
+  - [Building helper class](https://github.com/gama1221/ground360#Building)
+  - [Buildings helper class](https://github.com/gama1221/ground360#Buildings)
+  - [DeliveryRouter class](https://github.com/gama1221/ground360#DeliveryRouter)
+  - [Ground360Application Main class](https://github.com/gama1221/ground360#Ground360Application)
+- [Author (Made in...)](https://github.com/gama1221/ground360#Author)
 
 <p align="center">
   <img width="460" height="300" src="images/360Logo.svg">
