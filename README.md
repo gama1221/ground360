@@ -75,6 +75,7 @@ Breaking the problem into connected pieces as follows
 <p align="center">
   <img src="images/buildings.JPG" />
 </p>
+
 # Structure
 
 Here is the project structure using Intellij IDE
