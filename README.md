@@ -78,7 +78,7 @@ Breaking the problem into connected pieces as follows
 
 # Structure
 
-Here is the project structure using Intellij IDE
+<p align="center"> Mere is the Project structure using Intellij IDE </p>
 
 <p align="center">
   <img src="images/projectstructure.JPG" />
