@@ -42,4 +42,3 @@ class DeliveryRouterTest {
         assertEquals(0, building.getDistance().intValue());
     }
 }
-

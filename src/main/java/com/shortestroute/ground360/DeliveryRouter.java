@@ -13,7 +13,7 @@ public class DeliveryRouter {
     public static Buildings computesShortestPossibleRoutesToTravelFromSourceBuilding(Buildings buildings,
                                                                                      Building sourceBuilding){
         sourceBuilding.setDistance(0);
-        Set<Building> shortestPossiblePathBuildings = new HashSet<>();
+        Set<Building> shortestPossibleRouteBuildings = new HashSet<>();
         Set<Building> allOtherBuildings = new HashSet<>();
         allOtherBuildings.add(sourceBuilding);
 
@@ -23,12 +23,12 @@ public class DeliveryRouter {
             for (Map.Entry<Building, Integer> adjacencyPair : currentBuilding.getAdjacentBuilding().entrySet()) {
                 Building adjacentNode = adjacencyPair.getKey();
                 Integer edgeWeigh = adjacencyPair.getValue();
-                if (!shortestPossiblePathBuildings.contains(adjacentNode)) {
+                if (!shortestPossibleRouteBuildings.contains(adjacentNode)) {
                     computesShortestDistance(adjacentNode, edgeWeigh, currentBuilding);
                     allOtherBuildings.add(adjacentNode);
                 }
             }
-            shortestPossiblePathBuildings.add(currentBuilding);
+            shortestPossibleRouteBuildings.add(currentBuilding);
         }
         return buildings;
     }
