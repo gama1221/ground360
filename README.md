@@ -18,7 +18,7 @@
 
 <p align="center">
   <img width="100" height="80" src="images/buildings.JPG" style="display:inline">
-  <img width="100" height="80" src="images/buildings.JPG" style="display:inline">
+  <img width="300" height="400" src="images/360Logo.svg" style="display:inline">
 </p>
 
 # Given
