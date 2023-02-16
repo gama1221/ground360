@@ -11,7 +11,7 @@ public class Building {
      * Used to access private fields by other classes
      */
     private String name;
-    private LinkedList<Building> shortestPath = new LinkedList<>();
+    private LinkedList<Building> shortestRoute = new LinkedList<>();
     private Integer distance = Integer.MAX_VALUE;// considers as infinity value except to the starting building
     private Map<Building, Integer> adjacentBuilding = new HashMap<>();
 
@@ -38,11 +38,11 @@ public class Building {
     }
 
     public LinkedList<Building> getShortestPath() {
-        return shortestPath;
+        return shortestRoute;
     }
 
     public void setShortestPath(LinkedList<Building> shortestPath) {
-        this.shortestPath = shortestPath;
+        this.shortestRoute = shortestPath;
     }
 
     public Integer getDistance() {
