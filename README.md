@@ -18,6 +18,7 @@
 
 <p align="center">
   <img width="100" height="80" src="images/buildings.JPG" style="display:inline">
+  <img width="100" height="80" src="images/buildings.JPG" style="display:inline">
 </p>
 
 # Given
