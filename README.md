@@ -247,34 +247,48 @@ public class DeliveryRouter {
         return shortestDistanceBuilding;
     }
     public static void deliveryRouteOptimizationDemo(){
-        Building block12 = new Building("Block12");
-        Building block2 = new Building("Block2");
-        Building block3 = new Building("Block3");
-        Building block6 = new Building("Block6");
-        Building block7 = new Building("Block7");
-        Building block9 = new Building("Block9");
+        
+      Building block1 = new Building("Building 1");
+      Building block2 = new Building("Building 2");
+      Building block3 = new Building("Building 3");
+      Building block4 = new Building("Building 4");
+      Building block5 = new Building("Building 5");
+      Building block6 = new Building("Building 6");
 
-        block12.addDestination(block2, 10);
-        block12.addDestination(block3, 15);
+      block1.addDestination(block2, 11);
+      block1.addDestination(block3, 16);
+      
+      block2.addDestination(block4, 13);
+      block2.addDestination(block5, 16);
+      
+      block3.addDestination(block6, 11);
+      
+      block6.addDestination(block4, 3);
+      block6.addDestination(block5, 6);
+      
+      block5.addDestination(block6, 6);
+      
+      block1.addDestination(block2, 11);
+      block1.addDestination(block3, 16);
+      
+      block2.addDestination(block4, 13);
+      block2.addDestination(block5, 16);
+      
+      block3.addDestination(block6, 11);
+      
+      block4.addDestination(block5, 2);
+      block4.addDestination(block6, 3);
+      
+      block6.addDestination(block6, 6);
 
-        block2.addDestination(block6, 12);
-        block2.addDestination(block9, 15);
+      Buildings buildings = new Buildings();
 
-        block3.addDestination(block7, 10);
-
-        block6.addDestination(block7, 2);
-        block6.addDestination(block9, 1);
-
-        block9.addDestination(block7, 5);
-
-        Buildings graph = new Buildings();
-
-        graph.addBuilding(block12);
-        graph.addBuilding(block2);
-        graph.addBuilding(block3);
-        graph.addBuilding(block6);
-        graph.addBuilding(block7);
-        graph.addBuilding(block9);
+      buildings.addBuilding(block1);
+      buildings.addBuilding(block2);
+      buildings.addBuilding(block3);
+      buildings.addBuilding(block4);
+      buildings.addBuilding(block5);
+      buildings.addBuilding(block6);
 
         DeliveryRouter.computesShortestPossibleRoutesToTravelFromSourceBuilding(graph, block12)
                 .getBuildingSet().forEach(building -> {
