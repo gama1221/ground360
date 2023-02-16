@@ -16,9 +16,9 @@
     - [Test DeliveryRouter class using JUnit 5](https://github.com/gama1221/ground360#TestDeliveryRouter)
 - [Author (Made in...)](https://github.com/gama1221/ground360#Author)
 
-<p align="center">
+<p align="stretch">
   <img width="400" height="360" src="images/buildings.JPG" style="display:inline">
-  <img width="400" height="360" src="images/360Logo.svg" style="display:inline">
+  <img width="100" height="100" src="images/360Logo.svg" style="display:inline">
 </p>
 
 # Given
