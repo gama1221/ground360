@@ -17,7 +17,7 @@
 - [Author (Made in...)](https://github.com/gama1221/ground360#Author)
 
 <p align="center">
-  <img width="460" height="300" src="images/360Logo.svg">
+  <img width="100" height="80" src="images/buildings.JPG" style="display:inline">
 </p>
 
 # Given
