@@ -8,14 +8,8 @@ import java.util.LinkedList;
 import java.util.Map;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class BuildingTest {
-    @Test
-    void contextLoads() {
-    }
-
     /**
      * Methods under test:
      *

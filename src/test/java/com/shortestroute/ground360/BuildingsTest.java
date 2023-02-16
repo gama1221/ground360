@@ -36,4 +36,3 @@ class BuildingsTest {
         assertSame(buildingSet, actualBuildings.getBuildingSet());
     }
 }
-

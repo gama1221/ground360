@@ -66,6 +66,11 @@ public class DeliveryRouter {
         }
         return shortestDistanceBuilding;
     }
+
+    /**
+     * Based on the sample diagram I mentioned here is the method to check
+     * the shortest possible route for delivery to each building
+     */
     public static void deliveryRouteOptimizationDemo(){
         Building block12 = new Building("Block12");
         Building block2 = new Building("Block2");
